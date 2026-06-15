@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SAR data & weights
+*.tif
+*.tar
+*.pth
+*.pt
+*.h5
+*.zip
