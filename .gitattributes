@@ -1,0 +1,2 @@
+# Jupyter 노트북: 줄바꿈 자동변환(CRLF) 금지 — JSON 문자열에 \r이 끼면 파일이 깨짐
+*.ipynb -text
