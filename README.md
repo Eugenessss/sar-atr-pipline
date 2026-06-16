@@ -1,4 +1,9 @@
 # SAR ATR 2단계 탐지-분류 파이프라인
+![PyTorch](https://img.shields.io/badge/PyTorch-CUDA-EE4C2C?logo=pytorch&logoColor=white)
+![Ultralytics YOLO](https://img.shields.io/badge/Ultralytics-YOLO-111F68?style=flat&logo=ultralytics&logoColor=white)
+![SAHI](https://img.shields.io/badge/SAHI-tiled%20inference-1f6feb)
+![Colab](https://img.shields.io/badge/Runtime-Google%20Colab%20T4%2FA100-F9AB00?logo=googlecolab&logoColor=white)
+![Dataset](https://img.shields.io/badge/Dataset-ATRNet--STAR%20(SOC--50)-555)
 
 ATRNet-STAR(SAR 차량) 데이터셋 기반 **2단계 파이프라인**(YOLO 위치 탐지 → 분류기 차종 판별)을 구축하고, 분류기 종류·클래스 세분화·실장면 강인성을 정량 비교한 프로젝트입니다.
 
