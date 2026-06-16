@@ -67,6 +67,7 @@ MyDrive/ATRNet-STAR/
 ├── soc50.tar                   SOC-50 칩 이미지 (학습 + 슬라이스 평가)
 ├── coco_annotations.tar        공식 COCO 박스 라벨 (탐지 학습용, MSTAR 박스 포함)
 ├── dom_scenes.tar              DOM 풀씬 48장 + 정답 xml (Annotation/)
+├── yolo_soc50_1cls.tar         COCO→YOLO 변환 캐시 (버전 비교 노트북 stage1_yolo11n/12n이 자동 생성·재사용)
 │
 ├── checkpoints/                학습 결과 가중치 (노트북이 자동 생성)
 │   ├── yolo_detector.pt              ← detection/stage1
