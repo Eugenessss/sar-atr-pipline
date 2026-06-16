@@ -217,16 +217,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# SAR data & weights
-*.tif
+# ARTNet-STAR dataset PUSH 방지
+*.tif   
 *.tar
 *.pth
 *.pt
 *.h5
 *.zip
-mstar_yolo/
-data/
-weights/
 *.jpeg
 *.jpg
 *.png
